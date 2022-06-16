@@ -1,0 +1,17 @@
+@import '../../styles/settings.scss';
+
+.columnForm {
+    padding: $base-size;
+    text-align: center;
+    
+    span {
+        font-size: 14px;
+    }
+
+    input {
+        height: $base-size * 2.5;
+        margin: 0 5px 0 15px;
+        border-radius: $radius;
+        border: 0;
+    }
+}
