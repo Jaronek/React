@@ -1,4 +1,4 @@
-import { AllLists } from "../../redux/store";
+import { AllLists } from '../../redux/listsRedux';
 import styles from './Lists.module.scss';
 import { Link } from "react-router-dom";
 import ListForm from "../ListForm/ListForm";
