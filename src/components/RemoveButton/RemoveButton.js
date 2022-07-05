@@ -7,7 +7,7 @@ const RemoveButton = props => {
     const handleClick = (e) => {
         e.preventDefault();
         console.log('kliknieto', props.id)
-        dispatch(removeCard({id: props.id}))
+        dispatch(removeCard({id:props.id}))
     }
 
     return(
